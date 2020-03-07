@@ -61,11 +61,11 @@ google_ad_slot           :
 
 # Site Author
 author:
-  name             : Soichi Hayashi
+  name             :  Junjie Li 
   avatar           : /assets/images/bio-photo.jpg
-  bio              : Software Engineer at IU
-  location         : Bloomingon, IN
-  email            : soichih@gmail.com
+  bio              : Principal System Analyst at IU
+  location         : Indianapolis, IN
+  email            : nicejunjie@gmail.com
   uri              :
   bitbucket        :
   codepen          :
@@ -73,7 +73,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : soichih
+  github           : nicejunjie
   google_plus      :
   keybase          :
   instagram        :
@@ -84,7 +84,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : soichih
+  twitter          : 
   vine             :
   weibo            :
   xing             :
