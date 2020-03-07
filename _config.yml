@@ -1,6 +1,7 @@
-title: Junjie Personal Webpage
+title: Junjie Li, Ph.D
+title_separator          : "-"
 logo: /assets/img/bio-photo.jpg
-description:  show my work experience
+description:  Principal System Analyst at IU
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
