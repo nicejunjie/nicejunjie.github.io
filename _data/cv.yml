@@ -33,6 +33,33 @@
         - Advanced user support for HPC users and research collaboration.
         - Performance benchmark and tuning for modern HPC platforms. 
 
+#- title: professional activities
+#  type: nested_list
+#  contents:
+#    - title: commitee work 
+- title: Professional Activities
+  type: nested_list
+  contents:
+    - title: Technical committee
+      items: 
+        - (2022-) Committee member of SuperComputing Conference Reproducibility Special Journal 
+        - (2021-) Committee member of SuperComputing Conference Student Cluster Competition 
+        - (2021-) Committee member of International Workshop on Extreme Heterogeneity Solutions (ExHET) 
+        - (2020) Committee member of SuperComputing Conference ACM Undergraduate Posters 
+        - (2019-) Committee member of Practice Experience in Advanced Research Computing (PEARC)  
+    - title: Technical review
+      items: 
+        - (2021-) Reviewer for Journal of Molecular Modeling (JMM) 
+        - (2021-) Reviewer for Future Generation Computer Systems (FGCS) 
+        - (2021-) Reviewer for Transactions on Parallel and Distributed Systems (TPDS) 
+        - (2018) Reviewer for International Journal of Computational Science and Engineering (IJCSE) 
+        - (2017) Reviewer for OpenACC for Programmers Book     
+    - title: Grant review
+      items: 
+        - (2021-) Reviewer for Extreme Science and Engineering Discovery Environment (XSEDE) by NSF
+        - (2019) Reviewer for Exploring Clouds for Acceleration of Science (E-CAS) by NSF
+
+
 
 - title: Education
   type: time_table
