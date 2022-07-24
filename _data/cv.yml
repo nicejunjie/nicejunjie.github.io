@@ -1,97 +1,85 @@
 - title: General Information
   type: map
   contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+    - name: Name
+      value: Junjie Li (李 俊杰）
     - name: Languages
-      value: English, German
+      value: 中文(Chinese), English
+    - name: Email 
+      value: nicejunjie__at__gmail.com
 
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Associate
+      institution: Texas Advanced Computing Center, The University of Texas at Austin, Texas, US
+      year: 2020 - 
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Performance study of emerging HPC platforms.
+        - Characterize performance of key chemistry and physics codes for next-gen HPC design.
+        - Provide technical consultations to domain scientists to improve scientific computing software.
+    - title: Secretary of High Performance Group (HPG)
+      institution: Standard Performance Evaluation Corporation (SPEC)
+      year: 2017 -
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Manage daily operations of SPEC HPG.
+        - Benchmark development and result review. 
+        - Organize SPEC tutorials and workshops at academic conferences. 
+    - title: Principal System Analyst
+      institution: Indiana University System, Indiana, US
+      year: 2016 - 2020
       description:
+        - Advanced user support for HPC users and research collaboration.
+        - Performance benchmark and tuning for modern HPC platforms. 
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
 
-- title: Open Source Projects
+- title: Education
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Ph.D. in Chemical Physics
+      institution: Indiana University Bloomington, Indiana, US
+      year: 2015
+      description:
+        - title: Development of Quantum Wavepacket Ab Initio Molecular Dynamics (QWAIMD)
+          contents:
+            - Multi-configurational electronic structure with grid basis.
+            - Adaptive sampling in potential energy surface construction.
+        - Fragment-based electronic structure for ab initio molecular dynamics.
+        - Gaussian L121 code (Atom-centered Density Matrix Propagation) maintenance. 
+    - title: B.Eng. in Applied Chemistry
+      institution: East China Univ of Science and Technology, Shanghai, China
+      year: 2009
+      description:
+        - DFT+U study of photochemical activity of TiO<sub>2</sub> Surface.
+
+#- title: Open Source Projects
+#  type: time_table
+#  contents:
+#    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+#      year: 2015-now
+#      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2022
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+        - <a href="https://www.spec.org/spec/awards/2022/spectacularawards.html" target="_blank">SPECtacular Award</a> for SPEChpc&trade; 2021 development. 
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Computational and Theoretical Chemistry
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Quantum nuclear dynamics
+        - Large scale ab initio electronic structure calculations
+    - title: High-Performance Computing (HPC)
       items:
-        - Description 1.
-        - Description 2.
+        - Performance benchmark and tuning of modern HPC platforms
+        - Accelerate scientific research by HPC
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> all kinds of consumer electronics, photography, travel, 相声.

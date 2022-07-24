@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2022-07-11 07:59:00-0400
 inline: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Junjie Presented OpenMP SIMD tutorial at PEARC22, Boston. And safely traveled back home COVID free.  :sparkles: :smile:

@@ -1,0 +1,21 @@
+1: update ruby to avoid weird issue 
+
+curl -sSL https://get.rvm.io | bash -s stable --ruby
+rvm install ruby --latest
+restart a terminal
+
+
+2: may need openssl lib
+
+brew install openssl
+brew info openssl
+add include to cpath 
+
+
+
+3. setup jekyll
+bundle install 
+bundle exec jekyll serve --livereload
+
+
+

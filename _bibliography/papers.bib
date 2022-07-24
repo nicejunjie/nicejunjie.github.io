@@ -2,77 +2,351 @@
 ---
 
 @string{aps = {American Physical Society,}}
+@string{acs = {American Chemical Society,}}
+@string{rcs = {Royal Chemical Society,}}
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,},
-  preview={brownian-motion.gif}
-}
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
+@inproceedings{icpe22-spechpc21,
+  abbr={ICPE},
+  title={SPEChpc 2021 Benchmark Suites for Modern HPC Systems},
+  author = {Li, Junjie and Bobyr, Alexander and Boehm, Swen and Brantley, William and Brunst, 
+          Holger and Cavelan, Aurelien and Chandrasekaran, Sunita and Cheng, Jimmy and Ciorba, 
+          Florina M. and Colgrove, Mathew and Curtis, Tony and Daley, Christopher and 
+          Ferrato, Mauricio and de Souza, Mayara Gimenes and Hagerty, Nick and Henschel, Robert 
+          and Juckeland, Guido and Kelling, Jeffrey and Li, Kelvin and Lieberman, Ron and 
+          McMahon, Kevin and Melnichenko, Egor and Neggaz, Mohamed Ayoub and Ono, Hiroshi and 
+          Ponder, Carl and Raddatz, Dave and Schueller, Severin and Searles, Robert and 
+          Vasilev, Fedor and Vergara, Veronica Melesse and Wang, Bo and Wesarg, Bert and 
+          Wienke, Sandra and Zavala, Miguel}, 
+  abstract={ The SPEChpc 2021 suites are application-based benchmarks de- signed to measure performance of modern HPC systems. The bench- marks support MPI, MPI+OpenMP, MPI+OpenMP target offload, MPI+OpenACC and are portable across all major HPC platforms.
+},
+  booktitle={ICPE '22: Companion of the 2022 ACM/SPEC International Conference on Performance Engineering,},
+  volume={},
+  issue={},
+  pages={15-16},
   numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
+  year={2022},
+  isbn = {9781450391597}, 
+  month={July},
+  publisher=ACM,
+  address = {New York, NY, USA}, 
+  location = {Bejing, China}, 
+  doi={10.1145/3491204.3527498},
+  url={https://doi.org/10.1145/3491204.3527498},
+  pdf={spec/icpe22-spechpc21.pdf},
   selected={true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+
+
+@inproceedings{ccgrid22-spechpc21,
+  abbr={CCGrid},
+  title={First Experiences in Performance Benchmarking with the New SPEChpc 2021 Suites},
+  author={ Holger Brunst and Sunita Chandrasekaran and Florina M Ciorba and Nick Hagerty and
+           Robert Henschel and Guido Juckeland and Junjie Li and
+           Verónica G Melesse Vergara and Sandra Wienke and  Miguel Zavala },
+  abstract={ Modern High Performance Computing (HPC) sys-tems are built with innovative system architectures 
+and novel programming models to further push the speed limit of computing. The increased complexity poses 
+challenges for performance portability and performance evaluation. The Standard Performance Evaluation Corporation (SPEC) 
+has a long history of producing industry-standard benchmarks for modern computer systems. SPEC's newly released 
+SPEChpc 2021 benchmark suites, developed by the High Performance Group, are a bold attempt to provide a fair 
+and objective benchmarking tool designed for state-of-the-art HPC systems. With the support of multiple host 
+and accelerator programming models, the suites are portable across both homogeneous and heterogeneous architectures. 
+Different workloads are developed to fit system sizes ranging from a few compute nodes to a few hundred compute nodes. 
+In this work we present our first experiences in performance benchmarking the new SPEChpc2021 suites and 
+evaluate their portability and basic performance characteristics on various popular and emerging HPC architectures, 
+including x86 CPU, NVIDIA GPU, and AMD GPU. This study provides a first-hand experience of executing the SPEChpc 2021 
+suites at scale on production 
+HPC systems, discusses real-world use cases, and serves as an initial guideline for using the benchmark suites.
+},
+  booktitle={2022 22nd IEEE International Symposium on Cluster, Cloud and Internet Computing (CCGrid),},
+  volume={},
+  issue={},
+  pages={675--684},
+  numpages={10},
+  year={2022},
+  month={May},
+  publisher=IEEE,
+  doi={10.1109/CCGrid54584.2022.00077},
+  url={https://doi.org/10.1109/CCGrid54584.2022.00077},
+  pdf={spec/ccgrid22-spechpc21.pdf},
+  selected={true}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@article{neuroimage-qiuting2,
+  abbr={NeuroImage},
+  title={Tau-related white-matter alterations along spatially selective pathways},
+  author={ Qiuting Wen and Shannon L Risacher and Linhui Xie and Junjie Li and 
+           Jaroslaw Harezlak and Martin R Farlow and Frederick W Unverzagt and 
+           Sujuan Gao and Liana G Apostolova and Andrew J Saykin and Yu-Chien Wu },
+  abstract={ Progressive accumulation of tau neurofibrillary tangles in the brain is a defining pathologic feature of Alzheimer's disease (AD). Tau pathology exhibits a predictable spatiotemporal spreading pattern, but the underlying mechanisms of this spread are poorly understood. Although AD is conventionally considered a disease of the gray matter, it is also associated with pronounced and progressive deterioration of the white matter (WM). A link between abnormal tau and WM degeneration is suggested by findings from both animal and postmortem studies, but few studies demonstrated their interplay in vivo. Recent advances in diffusion magnetic resonance imaging and the availability of tau positron emission tomography (PET) have made it possible to evaluate the association of tau and WM degeneration (tau-WM) in vivo. In this study, we explored the spatial pattern of tau-WM associations across the whole brain to evaluate the hypothesis that tau deposition is associated with WM microstructural alterations not only in isolated tracts, but in continuous structural connections in a stereotypic pattern. Sixty-two participants, including 22 cognitively normal subjects, 22 individuals with subjective cognitive decline, and 18 with mild cognitive impairment were included in the study. WM characteristics were inferred by classic diffusion tensor imaging (DTI) and a complementary diffusion compartment model – neurite orientation dispersion and density imaging (NODDI) that provides a proxy for axonal density. A data-driven iterative searching (DDIS) approach, coupled with whole-brain graph theory analyses, was developed to continuously track tau-WM association patterns. Without applying prior knowledge of the tau spread, we observed a distinct spatial pattern that resembled the typical propagation of tau pathology in AD. Such association pattern was not observed between diffusion and amyloid-β PET signal. Tau-related WM degeneration is characterized by an increase in the mean diffusivity (with a dominant change in the radial direction) and a decrease in the intra-axonal volume fraction. These findings suggest that cortical tau deposition (as measured in tau PET) is associated with a lower axonal packing density and greater diffusion freedom. In conclusion, our in vivo findings using a data-driven method on cross-sectional data underline the important role of WM alterations in the AD pathological cascade with an association pattern similar to the postmortem Braak staging of AD. Future studies will focus on longitudinal analyses to provide in vivo evidence of tau pathology spreads along neuroanatomically connected brain areas.
+},
+  journal={Neuroimage,},
+  volume={226},
+  issue={},
+  pages={117560},
+  numpages={0},
+  year={2021},
+  month={Feb},
+  publisher=Elsevier,
+  doi={10.1016/j.neuroimage.2020.117560},
+  url={https://doi.org/10.1016/j.neuroimage.2020.117560},
+  pdf={with_qiuting/neuroimage-qiuting2.pdf},
+  selected={false}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+
+
+@inproceedings{sc20-cloud-gpu,
+  abbr={SuperCompCloud},
+  title={Performance Characteristics of Virtualized GPUs for Deep Learning},
+  author={ Scott Michael and Scott Teige and Junjie Li and John Michael Lowe and George Turner and Robert Henschel },
+  abstract={As deep learning techniques and algorithms become more and more common in scientific workflows, 
+HPC centers are grappling with how best to provide GPU resources and support deep learning workloads. 
+One novel method of deployment is to virtualize GPU resources allowing for multiple VM instances to have 
+logically distinct virtual GPUs (vGPUs) on a shared physical GPU. However, there are many operational 
+and performance implications to consider before deploying a vGPU service in an HPC center. In this paper, 
+we investigate the performance characteristics of vGPUs for both traditional HPC workloads and for 
+deep learning training and inference workloads. Using NVIDIA’s vDWS virtualization software, we perform 
+a series of HPC and deep learning benchmarks on both non-virtualized (bare metal) and vGPUs of various 
+sizes and configurations. We report on several of the challenges we discovered in deploying and 
+operating a variety of virtualized instance sizes and configurations. We find that the overhead of 
+virtualization on HPC workloads is generally < 10\%, and can vary considerably for deep learning, depending on the task.
+},
+  booktitle={2020 IEEE/ACM International Workshop on Interoperability of Supercomputing and Cloud Technologies (SuperCompCloud),},
+  volume={},
+  issue={},
+  pages={14-20},
+  numpages={0},
+  year={2020},
+  month={Nov},
+  publisher=IEEE,
+  doi={10.1109/SuperCompCloud51944.2020.00008},
+  url={https://doi.org/10.1109/SuperCompCloud51944.2020.00008},
+  pdf={uits/sc20-cloud-gpu.pdf},
+  selected={false}
 }
 
-@book{przibram1967letters,
+
+
+@article{angewandte-yubing3,
+  abbr={Angew.Chem.},
+  title={An Organic–Inorganic Hybrid Cathode Based on S–Se Dynamic Covalent Bonds},
+  author={ Jiawei Zhao and Yubing Si and Zixiao Han and Junjie Li and Wei Guo and Yongzhu Fu },
+  abstract={A diphenyl trisulfide–selenium nanowire (DPTS-Se) organic–inorganic hybrid cathode 
+material is presented for rechargeable lithium batteries. During discharge, three voltage 
+plateaus associated with three lithiation processes are observed. During recharge, the 
+combination of the radicals formed upon delithiation leads to several new phenyl sulfoselenide 
+compounds which are confirmed by HPLC-QTof-MS. The hybrid cathode exhibits superior cycling stability 
+over pristine Se or DPTS as cathode alone. The first discharge shows a capacity of 96.5 \% of the 
+theoretical specific capacity and the cell retains 69.2 \% of the initial capacity over 250 cycles. 
+The hybrid cathode also shows a high Coulombic efficiency of over 99 \% after 250 cycles. 
+This study demonstrates that the combination of organic polysulfide and selenium can not 
+only improve the utilization of active materials but also enhance the cycling performance.},
+  journal={Angewandte Chemie International Edition,},
+  volume={59},
+  issue={7},
+  pages={2654--2658},
+  numpages={0},
+  year={2020},
+  month={Feb},
+  publisher=Wiley,
+  doi={10.1002/anie.201913243},
+  url={https://doi.org/10.1002/anie.201913243},
+  pdf={with_yubing/angewandte-yubing3.pdf},
+  selected={false}
+}
+
+
+@article{dadm-qiuting,
+  abbr={DADM},
+  title={White matter alterations in early-stage Alzheimer's disease: A tract-specific study},
+  author={Qiuting Wen and Sourajit M Mustafi and Junjie Li and Shannon L Risacher and  Eileen Tallman
+ and Steven A Brown and John D West and Jaroslaw Harezlak and Martin R Farlow and Frederick W Unverzagt
+ and Sujuan Gao and Liana G Apostolova and Andrew J Saykin and Yu-Chien Wu   },
+  abstract={},
+  journal={Alzheimer's \& Dementia: Diagnosis, Assessment \& Disease Monitoring,},
+  volume={11},
+  issue={},
+  pages={576--587},
+  numpages={0},
+  year={2019},
+  month={Dec},
+  publisher=Elsevier,
+  doi={10.1016/j.dadm.2019.06.003},
+  url={https://doi.org/10.1016/j.dadm.2019.06.003},
+  pdf={with_qiuting/dadm-qiuting1.pdf},
+  selected={false}
+}
+
+
+@article{bench-workshop-dc,
+  abbr={Tech Report},
+  title={Explore True Performance Using Application Benchmark for the Next Generation HPC Systems: First NSF EAGER SPEC HPG Workshop Report},
+  author={Robert Henschel and Junjie Li and Rudolf Eigenmann and Sunita Chandrasekaran},
+  year={2019},
+  publisher={},
+  doi={10.5967/jmkd-6p64},
+  url={https://scholarworks.iu.edu/dspace/handle/2022/25344},
+  pdf={uits/bench-workshop-dc.pdf},
+}
+
+@article{jmca-yubing1,
+  abbr={J.Mater.Chem.A},
+  title={Tuning the electrochemical behavior of organodisulfides in rechargeable lithium batteries using N-containing heterocycles},
+  author={Dan-Yang Wang and Yubing Si and   Junjie Li  and  Yongzhu Fu   },
+  abstract={S–S bonds in organodisulfides can break and obtain Li+ and e− in the discharge of lithium batteries. Organodisulfides provide precise lithiation sites, and therefore are valuable models for the study of redox reactions in lithium batteries. To understand their electrochemical behavior, we investigate three disulfides with different N-containing heterocycles including 2,2′-dipyridyl disulfide (2,2′-DpyDS), 4,4′-dipyridyl disulfide (4,4′-DpyDS), and 2,2′-dipyridyl disulfide-N,N′-dioxide (DpyDSDO). The three disulfides all show higher discharge voltage plateaus due to the electron-withdrawing groups: DPDS (2.20 V) < 2,2′-DpyDS (2.45 V) = 4,4′-DpyDS (2.45 V) < DpyDSDO (2.80 V). In particular, 2,2′-DpyDS exhibits an outstanding 69\% capacity retention over 500 cycles. Our theoretical simulations show that lithium pyridine-2-thiolate, the discharge product of 2,2′-DpyDS, forms compact clusters via N⋯Li⋯S bridges coordinated by lithium ions, which can help reduce its dissolution in liquid electrolyte, and therefore increase the cycle life. Liquid chromatography-mass spectrometry is demonstrated to be a powerful tool for the investigation of discharge/recharge products of soluble organodisulfides in rechargeable lithium batteries.},
+  journal={Journal of Materials Chemistry A,},
+  volume={7},
+  issue={13},
+  pages={7423--7429},
+  numpages={0},
+  year={2019},
+  month={Mar},
+  publisher=rsc,
+  doi={10.1039/C9TA01273G},
+  url={https://doi.org/10.1039/C9TA01273G},
+  pdf={with_yubing/jmca-yubing2.pdf},
+  selected={false}
+}
+
+@article{electrochimica-yubing,
+  abbr={Electrochim.Acta},
+  title={Fabrication of B doped g-C3N4/TiO2 heterojunction for efficient photoelectrochemical water oxidation},
+  author={Weiqian Kong and Xiaofan Zhang and Binbin Chang and Yannan Zhou and Shouren Zhang and Guangli He and Baocheng Yang and Junjie Li},
+  abstract={},
+  journal={Electrochimica Acta,},
+  volume={282},
+  issue={},
+  pages={767--774},
+  numpages={0},
+  year={2018},
+  month={Aug},
+  publisher=Pergamon,
+  doi={10.1016/j.electacta.2018.06.090},
+  url={https://doi.org/10.1016/j.electacta.2018.06.090},
+  pdf={with_yubing/electacta-yubing1.pdf},
+  selected={false}
+}
+
+
+@article{jctc-fragaimd3,
+  abbr={JCTC},
+  title={Efficient, “On-the-Fly”, Born–Oppenheimer and Car–Parrinello-type Dynamics with Coupled Cluster Accuracy through Fragment Based Electronic Structure},
+  author={Cody Haycraft and Junjie Li and Srinivasan S. Iyengar},
+  abstract={We recently developed two fragment based ab initio molecular dynamics methods, and in this publication we have demonstrated both approaches by constructing efficient classical trajectories in agreement with trajectories obtained from “on-the-fly” CCSD. The dynamics trajectories are obtained using both Born–Oppenheimer and extended Lagrangian (Car–Parrinello-style) options, and hence, here, for the first time, we present Car–Parrinello-like AIMD trajectories that are accurate to the CCSD level of post-Hartree–Fock theory. The specific extended Lagrangian implementation used here is a generalization to atom-centered density matrix propagation (ADMP) that provides post-Hartree–Fock accuracy, and hence the new method is abbreviated as ADMP-pHF; whereas the Born–Oppenheimer version is called frag-BOMD. The fragmentation methodology is based on a set-theoretic, inclusion-exclusion principle based generalization of the well-known ONIOM method. Thus, the fragmentation scheme contains multiple overlapping “model” systems, and overcounting is compensated through the inclusion-exclusion principle. The energy functional thus obtained is used to construct Born–Oppenheimer forces (frag-BOMD) and is also embedded within an extended Lagrangian (ADMP-pHF). The dynamics is tested by computing structural and vibrational properties for protonated water clusters. The frag-BOMD trajectories yield structural and vibrational properties in excellent agreement with full CCSD-based “on-the-fly” BOMD trajectories, at a small fraction of the cost. The asymptotic (large system) computational scaling of both frag-BOMD and ADMP-pHF is inferred as , for on-the-fly CCSD accuracy. The extended Lagrangian implementation, ADMP-pHF, also provides structural features in excellent agreement with full “on-the-fly” CCSD calculations, but the dynamical frequencies are slightly red-shifted. Furthermore, we study the behavior of ADMP-pHF as a function of the electronic inertia tensor and find a monotonic improvement in the red-shift as we reduce the electronic inertia. In all cases a uniform spectral scaling factor, that in our preliminary studies appears to be independent of system and independent of level of theory (same scaling factor for both MP2 and CCSD implementations ADMP-pHF and for ADMP DFT), improves on agreement between ADMP-pHF and full CCSD calculations. Hence, we believe both frag-BOMD and ADMP-pHF will find significant utility in modeling complex systems. The computational power of frag-BOMD and ADMP-pHF is demonstrated through preliminary studies on a much larger protonated 21-water cluster, for which AIMD trajectories with “on-the-fly” CCSD are not feasible.},
+  journal={Journal of Chemical Theory and Computation,},
+  volume={13},
+  issue={5},
+  pages={1887--1901},
+  numpages={0},
+  year={2017},
+  month={Mar},
+  publisher=acs,
+  doi={10.1021/acs.jctc.6b00001},
+  url={https://pubs.acs.org/doi/abs/10.1021/acs.jctc.6b00001},
+  pdf={iu/jctc-fragaimd3.pdf},
+  selected={false}
+}
+
+
+@article{jctc-fragaimd2,
+  abbr={JCTC},
+  title={Hybrid extended Lagrangian, post-Hartree–Fock Born–Oppenheimer ab initio molecular dynamics using fragment-based electronic structure},
+  author={Junjie Li and Cody Haycraft and Srinivasan S. Iyengar},
+  abstract={We present a hybrid ab initio molecular dynamics scheme that includes both DFT and Hartree–Fock-based extended Lagrangian and converged post-Hartree–Fock Born–Oppenheimer components, combined within the framework of a molecular fragmentation-based electronic structure. The specific fragmentation algorithm used here is derived from ONIOM but includes multiple, overlapping “model” systems. The interaction between the various overlapping model systems is approximated by invoking the principle of inclusion–exclusion at the chosen higher level of theory and within a “real” calculation performed at the chosen lower level of theory. Furthermore, here, the lower level electronic structure of the full system is propagated through an extended Lagrangian formalism, whereas the fragments, treated using post-Hartree–Fock electronic structure theories, are computed using the normal converged Born–Oppenheimer treatment. This conservative dynamical approach largely reduces the computational cost to approximate on-the-fly dynamics using post-Hartree–Fock electronic structure techniques and can be very beneficial for large systems where SCF convergence may be challenging and time consuming. Benchmarks are provided for medium-sized protonated water clusters, H9O4+ and H13O6+, and polypeptide fragments, including a proline tripeptide fragment, and alanine decamer. Structural features are in excellent agreement between the hybrid approach using an MP2:B3LYP fragment-based electronic structure and BOMD using MP2 for the full system. Vibrational properties derived from dynamical correlation functions do show a small redshift for the extended Lagrangian treatments, especially at higher frequencies. Strategies are discussed to improve this redshift. The computational methodology works in parallel using both MPI and OpenMP and shows good scaling with the processor number. The timing benchmarks are provided for the alanine decamer. A powerful feature of the computational implementation is the fact that it is completely decoupled from the electronic structure package being employed and thus allows for an integrated approach that may include several different packages. These computational aspects will be further probed in future publications.},
+  journal={Journal of Chemical Theory and Computation,},
+  volume={12},
+  issue={6},
+  pages={2493--2508},
+  numpages={0},
+  year={2016},
+  month={Jun},
+  publisher=acs,
+  doi={10.1021/acs.jctc.6b00001},
+  url={https://pubs.acs.org/doi/abs/10.1021/acs.jctc.6b00001},
+  pdf={iu/jctc-fragaimd2.pdf},
+  selected={false}
+}
+
+@article{pccp-carbocation,
+  abbr={PCCP},
+  title={A Grotthuss-like proton shuttle in the anomalous C2H3+ carbocation: energetic and vibrational properties for isotopologues},
+  author={Junjie Li and   Alexander B. Pacheco and   Krishnan Raghavacharia  and  Srinivasan S. Iyengar},
+  abstract={We probe the structure, stability and vibrational properties of the fundamental C2H3+ carbocation that exists with preference in a bridged hydrogen conformation. Our computational study includes electronic structure treatment, incorporation of nuclear motion through classical and quantum paradigms, the effect of temperature, and the associated sampling of the potential surface, and the effect of single H/D isotopic substitution (i.e., C2H2D+). We find that while the non-classical, “Bridged” isomer is most stable, the “Classical” form does have a small presence under ambient conditions since the zero point level straddles the barrier between the Classical and Bridged isomers in a reduced dimensional analysis of the Bridged ↔ Classical transfer coordinate. But the probability of the classical structure is too low and hence may remain undetected from the vibrational properties of the system. For the deuterated counterpart, the deuterium preferentially occupies the terminal instead of bridge position, in the more stable bridged isomeric structure. This preference is noted from nuclear dynamics. In all cases, at higher temperatures, an orbiting phenomenon is observed where the hydrogen atom density is distributed as an oblate ellipsoid surrounding the carbon–carbon bond. This is not observed at lower temperatures and the orbiting phenomenon is probed here by computing two-dimensional, time–frequency vibrational spectra, which show the spectral evolution in time and temperature, and the development of the system from one kind of isomer to another. New experiments that may probe this isomeric multiplicity are suggested, and these involve a combination of infra-red multiple photon dissociation (IRMPD) and argon-tagged action spectroscopy.},
+  journal={Physical Chemistry Chemical Physics,},
+  volume={18},
+  issue={42},
+  pages={29395--29411},
+  numpages={0},
+  year={2016},
+  month={Sep},
+  publisher=rsc,
+  doi={10.1039/c6cp04450f },
+  url={https://pubs.rsc.org/en/content/articlelanding/2016/cp/c6cp04450f},
+  pdf={iu/pccp-carbocation.pdf},
+  selected={false}
+}
+
+@article{jctc-fragaimd1,
+  abbr={JCTC},
+  title={Ab Initio Molecular Dynamics Using Recursive, Spatially Separated, Overlapping Model Subsystems Mixed within an ONIOM-Based Fragmentation Energy Extrapolation Technique},
+  author={Junjie Li and Srinivasan S. Iyengar},
+  abstract={Here, we demonstrate the application of fragment-based electronic structure calculations in (a) ab initio molecular dynamics (AIMD) and (b) reduced dimensional potential calculations, for medium- and large-sized protonated water clusters. The specific fragmentation algorithm used here is derived from ONIOM, but includes multiple, overlapping “model” systems. The interaction between the various overlapping model systems is (a) approximated by invoking the principle of inclusion-exclusion at the chosen higher level of theory and (b) within a real calculation performed at the chosen lower level of theory. The fragmentation algorithm itself is written using bit-manipulation arithmetic, which will prove to be advantageous, since the number of fragments in such methods has the propensity to grow exponentially with system size. Benchmark calculations are performed for three different protonated water clusters: H9O4+, H13O6+ and H(H2O)21+. For potential energy surface benchmarks, we sample the normal coordinates and compare our surface energies with full MP2 and CCSD(T) calculations. The mean absolute error for the fragment-based algorithm is <0.05 kcal/mol, when compared with MP2 calculations, and <0.07 kcal/mol, when compared with CCSD(T) calculations over 693 different geometries for the H9O4+ system. For the larger H(H2O)21+ water cluster, the mean absolute error is on the order of a 0.1 kcal/mol, when compared with full MP2 calculations for 84 different geometries, at a fraction of the computational cost. Ab initio dynamics calculations were performed for H9O4+ and H13O6+, and the energy conservation was found to be of the order of 0.01 kcal/mol for short trajectories (on the order of a picosecond). The trajectories were kept short because our algorithm does not currently include dynamical fragmentation, which will be considered in future publications. Nevertheless, the velocity autocorrelation functions and their Fourier transforms computed from the fragment-based AIMD approaches were found to be in excellent agreement with those computed using the respective higher level of theory from the chosen hybrid calculation.},
+  journal={Journal of Chemical Theory and Computation,},
+  volume={11},
+  issue={9},
+  pages={3978--3991},
+  numpages={0},
+  year={2015},
+  month={Aug},
+  publisher=acs,
+  doi={10.1021/acs.jctc.5b00433},
+  url={https://pubs.acs.org/doi/abs/10.1021/acs.jctc.5b00433},
+  pdf={iu/jctc-fragaimd1.pdf},
+  selected={false}
+}
+
+@article{jpcb-slo1,
+  abbr={J.Phys.Chem.B},
+  title={Active Site Dynamical Effects in the Hydrogen Transfer Rate-limiting Step in the Catalysis of Linoleic Acid by Soybean Lipoxygenase-1 (SLO-1): Primary and Secondary Isotope Contributions},
+  author={Prasad Phatak and Jordan Venderley and  John Debrota and Junjie Li and Srinivasan S. Iyengar},
+  abstract={Using ab initio molecular dynamics (AIMD) simulations that facilitate the treatment of rare events, we probe the active site participation in the rate-determining hydrogen transfer step in the catalytic oxidation of linoleic acid by soybean lipoxygenase-1 (SLO-1). The role of two different active site components is probed. (a) On the hydrogen atom acceptor side of the active site, the hydrogen bonding propensity between the acceptor side hydroxyl group, which is bound to the iron cofactor, and the backbone carboxyl group of isoleucine (residue number 839) is studied toward its role in promoting the hydrogen transfer event. Primary and secondary (H/D) isotope effects are also probed and a definite correlation with subtle secondary H/D isotope effects is found. With increasing average nuclear kinetic energy, the increase in transfer probability is enhanced due to the presence of the hydrogen bond between the backbone carbonyl of I839 and the acceptor oxygen. Further increase in average nuclear kinetic energy reduces the strength of this secondary hydrogen bond which leads to a deterioration in hydrogen transfer rates and finally embrances an Arrhenius-like behavior. (b) On the hydrogen atom donor side, the coupling between vibrational modes predominantly localized on the donor-side linoleic acid group and the reactive mode is probed. There appears to be a qualitative difference in the coupling between modes that belong to linoleic acid and the hydrogen transfer mode, for hydrogen and deuterium transfer. For example, the donor side secondary hydrogen atom is much more labile (by nearly a factor of 5) during deuterium transfer as compared to the case for hydrogen transfer. This appears to indicate a greater coupling between the modes belonging to the linoleic acid scaffold and the deuterium transfer mode and also provides a new rationalization for the abnormal (nonclassical) secondary isotope effect results obtained by Knapp, Rickert, and Klinman in J. Am. Chem. Soc., 2002, 124, 3865. To substantiate our findings noted in point a above, we have suggested an I839 → A839 or I839 → V839 mutation. This will modify the bulkiness of hydrogen the bonding residue, allowing greater flexibility in the secondary hydrogen bond formation highlighted above and adversely affecting the reaction rate.},
+  journal={Journal of Physical Chemistry B,},
+  volume={119},
+  issue={30},
+  pages={9532--9546},
+  numpages={0},
+  year={2015},
+  month={Jun},
+  publisher=acs,
+  doi={10.1021/ct5002347},
+  url={https://pubs.acs.org/doi/abs/10.1021/ct5002347},
+  pdf={iu/jpcb-slo1.pdf},
+  selected={false}
+}
+
+
+@article{jctc-mcqwaimd,
+  abbr={JCTC},
+  title={Vibrational Properties of Hydrogen-Bonded Systems Using the Multireference Generalization to the “On-the-Fly” Electronic Structure within Quantum Wavepacket ab Initio Molecular Dynamics (QWAIMD)},
+  author={Junjie Li and Xiaohu Li  and Srinivasan S. Iyengar},
+  abstract={We discuss a multiconfigurational treatment of the “on-the-fly” electronic structure within the quantum wavepacket ab initio molecular dynamics (QWAIMD) method for coupled treatment of quantum nuclear effects with electronic structural effects. Here, multiple single-particle electronic density matrices are simultaneously propagated with a quantum nuclear wavepacket and other classical nuclear degrees of freedom. The multiple density matrices are coupled through a nonorthogonal configuration interaction (NOCI) procedure to construct the instantaneous potential surface. An adaptive-mesh-guided set of basis functions composed of Gaussian primitives are used to simplify the electronic structure calculations. Specifically, with the replacement of the atom-centered basis functions positioned on the centers of the quantum-mechanically treated nuclei by a mesh-guided band of basis functions, the two-electron integrals used to compute the electronic structure potential surface become independent of the quantum nuclear variable and hence reusable along the entire Cartesian grid representing the quantum nuclear coordinates. This reduces the computational complexity involved in obtaining a potential surface and facilitates the interpretation of the individual density matrices as representative diabatic states. The parametric nuclear position dependence of the diabatic states is evaluated at the initial time-step using a Shannon-entropy-based sampling function that depends on an approximation to the quantum nuclear wavepacket and the potential surface. This development is meant as a precursor to an on-the-fly fully multireference electronic structure procedure embedded, on-the-fly, within a quantum nuclear dynamics formalism. We benchmark the current development by computing structural, dynamic, and spectroscopic features for a series of bihalide hydrogen-bonded systems: FHF–, ClHCl–, BrHBr–, and BrHCl–. We find that the donor–acceptor structural features are in good agreement with experiments. Spectroscopic features are computed using a unified velocity/flux autocorrelation function and include vibrational fundamentals and combination bands. These agree well with experiments and other theories.},
+  journal={Journal of Chemical Theory and Computation,},
+  volume={10},
+  issue={6},
+  pages={2265--2280},
+  numpages={0},
+  year={2015},
+  month={May},
+  publisher=acs,
+  doi={10.1021/acs.jpcb.5b02385},
+  url={https://pubs.acs.org/doi/abs/10.1021/acs.jpcb.5b02385},
+  pdf={iu/jctc-mcqwaimd.pdf},
+  selected={false}
+}
+
+book{przibram1967letters,
   bibtex_show={true},
   title={Letters on wave mechanics},
   author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
