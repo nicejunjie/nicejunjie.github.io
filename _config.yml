@@ -10,7 +10,7 @@ email: nicejunjie@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Junjie's webspace for boring life and work stories.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords:   # add your own keywords or leave empty
 
