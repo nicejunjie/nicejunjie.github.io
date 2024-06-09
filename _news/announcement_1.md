@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2022-July-22 09:00:00-0000
+date: 2024-Jun-8 09:00:00-0000
 inline: true
 ---
-The two SPEChpc 2021 papers are officially online.
+Automatic BLAS offload paper is accepted to PEARC24. The paper explores performant offloads on unified memory architecture. 
