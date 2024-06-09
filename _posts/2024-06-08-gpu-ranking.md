@@ -10,7 +10,7 @@ categories: personal_posts
 
 ## NVIDIA GPU Performance Comparison
 
-| Rank | GPU Model | FP32 RPeak (TFLOPS) | Memory Bandwidth (GB/s) |
+| Rank |  Model | FP32 RPeak <br> (TFLOPS) | Memory Bandwidth <br> (GB/s) |
 |------|----------|:--:|:--:|
 | 1 | NVIDIA RTX 4090 | 82.6 | 1,008 |
 | 2 | NVIDIA RTX 4080 Super | 52.2 | 736 |
