@@ -10,6 +10,8 @@ categories: personal_posts
 
 {% include_relative gpu_table.md %}
 
+reference: https://www.techpowerup.com/gpu-specs/
+
 
 
 
