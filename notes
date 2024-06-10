@@ -14,7 +14,7 @@ add include to cpath
 
 
 3. setup jekyll
-bundle install 
+bundle install  --path ~/.gem
 bundle exec jekyll serve --livereload
 
 
