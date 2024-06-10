@@ -61,17 +61,21 @@ def generate_gpu_table(gpus):
     table = "### NVIDIA GPU Performance and Efficiency Comparison\n\n"
     table += f"**Last Updated**: `{today_date}`\n\n" 
     table += "||\n"
-    table += "|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|\n"
+    table += "|:---:|:---|:---:|:---:|:---:|:---:|:---:|:---:|\n"
     
 
-    header1 = "|**Rank**|**Model**|**&nbsp;FP32 RPeak&nbsp;<br>(TFlops)**|"
+    header1 = "|**Rank**|"
+    header1 +="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Model**|"
+    header1 +="**&nbsp;FP32 RPeak&nbsp;<br>(TFlops)**|"
     header1 += "**&nbsp;Mem Bdw&nbsp;<br>(GB/s)**|**&nbsp;TDP&nbsp;<br>(W)**|"
     header1 += "**&nbsp;TFlop/Watt&nbsp;**|**&nbsp;Flops/Bdw&nbsp;**|\n"
-    header1 += "|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|\n"
+#    header1 += "|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|\n"
 
     table += header1
 
-    header2 = "|**Rank**|**Model**|**&nbsp;FP32 RPeak&nbsp;**|"
+    header2 = "|**Rank**|"
+    header2 +="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Model**|"
+    header2 += "**&nbsp;FP32 RPeak&nbsp;**|"
     header2 += "**&nbsp;Mem Bdw&nbsp;**|**&nbsp;TDP&nbsp;**|"
     header2 += "**&nbsp;TFlop/Watt&nbsp;**|**&nbsp;Flops/Bdw&nbsp;**|\n"
 
