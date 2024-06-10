@@ -1,1 +1,0 @@
-gpu-ranking.md
