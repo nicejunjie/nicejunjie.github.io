@@ -32,7 +32,7 @@
 | 23 | NVIDIA RTX 3050 (6GB) | 6.77 | 168  | 70 | 0.10 | 40.32 |
 ||
 
-### Understanding the Metrics
+### Understand the Metrics
 
 - **Rank**: GPUs are ranked primarily by FP32 Flop, then by bandwidth, and finally by inverse of TDP.
 - **FP32 TFlops**: Single precision floating-point operations per second in teraflops.
